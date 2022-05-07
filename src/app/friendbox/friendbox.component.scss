@@ -1,0 +1,22 @@
+.friendrow{
+    display: flex;
+}
+
+.friend{
+
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    margin-left: 12px;
+    margin-top: 12px    ;
+    img{
+        width: 60px;
+        height:60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    font-size: 12px;
+    text-align: center;
+    
+}
